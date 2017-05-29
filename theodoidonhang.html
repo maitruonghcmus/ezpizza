@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
+<title>iMIT PIZZA | Theo dõi đơn hàng</title>
+<link href="css/common.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<link href="css/font-awesome.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/iao-alert.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/matchHeight.js"></script>
+<script type="text/javascript" src="js/jquery.carouFredSel-6.2.1.js"></script>
+<script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="js/iao-alert.jquery.js"></script>
+</head>
+
+<body id="pageHome">
+	<div id="wrapper">
+		<div id="container">
+			<header id="header">
+				<div class="inner">
+					<h1><a href="index.html" id="logo"><img src="images/common/logo.png" alt="Be Pizza"></a></h1>
+					<p id="menuToggle"><a href="#"><i class="fa fa-bars" aria-hidden="true"></i><i class="fa fa-close" aria-hidden="true"></i></a></p>
+					<div class="wrapSearchSp"><div><a href="#"><span><i class="fa fa-search" aria-hidden="true"></i></span></a>
+						<div class="popup">
+							<div class="inner">
+								<p class="searchBox"><input type="text" class="keyword"><button type="button" class="btnSearch button03">Tìm</button></p>
+							</div>
+						</div>
+					</div></div>
+					<nav id="navi">
+						<ul class="anchor">
+							<li><a href="index.html"><span>Trang chủ</span></a></li>
+				
+					
+							<li><a href="#contact"><span>Liên hệ</span></a></li>
+							<li class="wrapSearch"><a href="#"><span><i class="fa fa-search" aria-hidden="true"></i></span></a>
+								<div class="popup">
+									<div class="inner">
+										<p class="searchBox"><input type="text" class="keyword"><button type="button" class="btnSearch button03">Tìm</button></p>
+									</div>
+								</div>
+							</li>
+									<li class="wrapCart"><a href="#" class="openCart"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span><span id="numCart"></span></a></li>
+							<li class="wrapUser"><a href="#" class="openUser"><span><i class="fa fa-user" aria-hidden="true"></i></span></a>
+								<div class="popup">
+									<div class="inner">
+										<div class="userInfo">
+											<p class="name">Chào <strong>Trang Vo</strong></p>
+											<ul class="infoUser">
+												<li><a href="thongtincanhan.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Thông tin cá nhân</a></li>
+												<li><a href="theodoidonhang.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Theo dõi đơn hàng</a></li>
+												<li><a id="btnLogOut"><i class="fa fa-angle-right" aria-hidden="true"></i>Đăng xuất</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</nav>
+					<div class="overlay01"></div>
+				</div>
+			</header>
+			<!-- / #header -->
+			<div id="contents">
+				
+				<div id="main">
+				
+				
+					<section id="smallbanner3">
+						<h4 class="headline1">Theo dõi đơn hàng</h4>
+						<p class="breadcrumb"><a href="index.html">Trang chủ</a> / Theo dõi đơn hàng</p>
+					</section>
+					<!-- #banner-->
+					
+					<section id="menu">
+						<div id="register" class="active clearfix">
+										<div class="row">
+											
+												<div class="row">
+														<div class="columns grid3 grid4Mobile">
+															<p>Tên đăng nhập / Email</p>
+														</div>
+														<div class="columns grid9 grid4Mobile">
+															<input type="text" name="username">
+														</div>					
+												</div>
+											
+												<div class="row">
+														<div class="columns grid3 grid4Mobile">
+															<p>Mã đơn hàng</p>
+														</div>
+														<div class="columns grid9 grid4Mobile">
+															<input type="text" name="name">	
+														</div>					
+												</div>
+
+												<div class="row">
+													<div class="columns grid9 grid4Mobile grid4Tablet">
+															
+													</div>
+													<div class="columns grid3 grid4Mobile grid4Tablet ">
+														<p class="btnSignIn buttonBlock"><a href="ketquatheodoidonhang.html"><span>Kiểm tra </span></a></p>
+														
+													</div>
+												</div>
+										</div>
+									</div>
+					</section>
+
+				<!-- 	#Menu  -->
+
+					<section id="miniGame">
+						<h3 class="headline1">Trò chơi tích điểm</h3>
+						<div class="inner">
+							<ul class="gameList clearfix">
+								<li>
+									<p class="image"><img src="images/home/img_game01.jpg" alt=""></p>
+									<div class="box">
+										<div>
+											<p class="name">Chơi xếp bánh</p>
+											<p class="detail">
+												<span><i class="fa fa-check" aria-hidden="true"></i>Giảm 5% tổng hóa đơn</span>
+												<span><i class="fa fa-check" aria-hidden="true"></i>Giảm 10% tổng hóa đơn</span>
+											</p>
+											<p class="button01"><a id="game1"><span class="icon"><i class="fa fa-gamepad" aria-hidden="true"></i></span><span>Chơi ngay</span></a></p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<p class="image"><img src="images/home/img_game02.jpg" alt=""></p>
+									<div class="box">
+										<div>
+											<p class="name">Chơi xếp ly</p>
+											<p class="detail">
+												<span><i class="fa fa-check" aria-hidden="true"></i>Giảm 5% tổng hóa đơn</span>
+												<span><i class="fa fa-check" aria-hidden="true"></i>Giảm 10% tổng hóa đơn</span>
+												<span><i class="fa fa-check" aria-hidden="true"></i>Giảm 15% tổng hóa đơn</span>
+											</p>
+											<p class="button01"><a id="game2"><span class="icon"><i class="fa fa-gamepad" aria-hidden="true"></i></span><span>Chơi ngay</span></a></p>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<br>
+
+							<p> *Áp dụng cho lần thanh toán tiếp theo.</p>
+						</div>
+					</section>
+				</div>
+
+			</div>
+			<!-- / #contents -->
+			<footer>
+
+				
+				<div id="contact" class="inner clearfix">
+					<div class="leftBox">
+						<h4 class="slogan">Pizza No.1 chính là đây!</h4>
+						<p class="intro">&thinsp;&thinsp;&thinsp;&thinsp; Với lịch sử hơn 30 năm trong lĩnh vực pizza, với công thức đặc thù rất riêng của công ty, iMit Pizza phục vụ hơn 1 triệu thực khách hằng ngày, hơn 400 triệu chiếc bánh được bán mỗi năm.  <br> &thinsp;&thinsp;&thinsp;&thinsp; <b>iMit Pizza</b> cam kết sẽ đem lại sự hài lòng về chất lượng cũng như cách phục vụ của chúng tôi tại các chi nhánh trải dài trên cả nước. <br> </p>
+						<ul class="social">
+							<li><a id ="social"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a id ="social1"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a id ="social2"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+					<div class="rightBox">
+						<h5>Thông tin liên hệ</h5>
+						<ul class="contactList">
+							<li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> 15 Lộ Dưới, TP. Hồ Chí Minh</li>
+							<li><i class="fa fa-fw fa-phone" aria-hidden="true"></i> 086897689</li>
+							<li><i class="fa fa-fw fa-envelope" aria-hidden="true"></i> xinchao@imitpizza.com</li>
+							<li><a href="tuyendung.html"><i class="fa fa-fw fa-handshake-o" aria-hidden="true"></i> Tin tuyển dụng</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="fInfo inner">
+					<p class="pageTop hoverVertical"><a href="#"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></p>
+					
+					<p class="copyright">Phiên bản website 1.0, © IMIT Team giữ bản quyền nội dung.	&thinsp;&thinsp;&thinsp;&thinsp;<img  class="imageFooter right" src="images/common/img_dmca.png" alt=""> <img  class="imageFooter right" src="images/common/img_dk.png" alt=""> </p>
+				
+					
+					  
+					
+				</div>
+				
+			</footer>
+			<!-- / #footer -->
+		</div>
+		<!-- / #container -->
+	</div>
+	<!-- / #wrapper -->
+	<script>
+
+		$( "#social" ).click(function() {
+		  $.iaoAlert({msg: "Chức năng đang được phát triển",
+		            type: "warning",
+		            mode: "dark",
+		            position:"bottom-left",
+		        })
+		});
+		$( "#social1" ).click(function() {
+		  $.iaoAlert({msg: "Chức năng đang được phát triển",
+		            type: "warning",
+		            mode: "dark",
+		            position:"bottom-left",
+		        })
+		});
+		$( "#social2" ).click(function() {
+		  $.iaoAlert({msg: "Chức năng đang được phát triển",
+		            type: "warning",
+		            mode: "dark",
+		            position:"bottom-left",
+		        })
+		});
+		$( "#game1" ).click(function() {
+		  $.iaoAlert({msg: "Trò chơi xếp bánh đang được phát triển",
+		            type: "warning",
+		            mode: "dark",
+		            position:"bottom-left",
+		        })
+		});
+		$( "#game2" ).click(function() {
+		  $.iaoAlert({msg: "Trò chơi xếp ly đang được phát triển",
+		            type: "warning",
+		            mode: "dark",
+		            position:"bottom-left",
+		        })
+		});
+		$( "#promo2" ).click(function() {
+		  $.iaoAlert({msg: "Nhận ưu đãi khi đã thanh toán",
+		            type: "notification",
+		            mode: "dark",
+		            position:"bottom-left",
+		        })
+		});
+		$( "#promo3" ).click(function() {
+		  $.iaoAlert({msg: "Dịch vụ giao hàng nhanh, không mất thêm phí",
+		            type: "notification",
+		            mode: "dark",
+		            position:"bottom-left",
+		        })
+		});
+		
+	</script>
+</body>
